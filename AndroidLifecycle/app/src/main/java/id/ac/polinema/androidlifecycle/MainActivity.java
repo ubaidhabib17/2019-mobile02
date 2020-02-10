@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop(){
 	    super.onStop();
-	    Toast.makeText(this, "App has Stop",Toast.LENGTH_SHORT).show();
+	    Toast.makeText(this, "App on Stop",Toast.LENGTH_SHORT).show();
     }
 	// TODO: lengkapi callback untuk onRestart() onResume() onPause() onDestroy()
 	@Override
